@@ -18,9 +18,10 @@
         android:layout_centerInParent="true"
         android:onClick="change"
         app:text="123"
+        app:textsize="30"
+        app:orientation="vetical"
         app:textColor="@color/colorAccent"
-        app:reverse="true"
-
+        app:reverse="false"
         android:background="#fa4"
         />
 </RelativeLayout>

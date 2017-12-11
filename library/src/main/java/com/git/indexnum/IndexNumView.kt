@@ -59,9 +59,9 @@ class IndexNumView:View{
         attrs?.apply {
             val a = mContext.obtainStyledAttributes(attrs, R.styleable.IndexNumView)
             mText=a.getString(R.styleable.IndexNumView_text)?:"0"
-            mTextSize = a.getInteger(R.styleable.IndexNumView_textsize, 10)
+            mTextSize = a.getInteger(R.styleable.IndexNumView_textsize, 14)
             mTextColor = a.getColor(R.styleable.IndexNumView_textColor, Color.BLACK)
-            orientation = a.getInt(R.styleable.IndexNumView_orientation, 1)
+            orientation = a.getInt(R.styleable.IndexNumView_orientation, 0)
             mDuration=a.getInteger(R.styleable.IndexNumView_duration,200)
             textoffset=a.getInteger(R.styleable.IndexNumView_offset,20)
             reverse = a.getBoolean(R.styleable.IndexNumView_reverse, false);
@@ -102,7 +102,6 @@ class IndexNumView:View{
     }
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-
         measureText()
         val measureWidth = measureWidth(widthMeasureSpec)
         val measureHeight = measureHeight(heightMeasureSpec)
