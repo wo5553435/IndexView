@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndexNumView">
+        <attr name="orientation"
+            >
+            <enum name="vetical" value="1"/>
+            <enum name="horizontal" value="2"/>
+        </attr>
+        <attr name="reverse" format="boolean"/>
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="reference"/>
+        <attr name="backgound" format="reference"/>
+        <attr name="textsize" format="integer"/>
+        <attr name="duration" format="integer"/>
+        <attr name="offset" format="integer"/>
+    </declare-styleable>
+</resources>
