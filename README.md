@@ -1,6 +1,6 @@
 # IndexView
 Just a custom textview  which can show text from different orientations like this
-![点击展示](http://github.com/wo5553435/IndexView/gif/device-2017-12-11-143113.mp4)
+![点击展示](https://github.com/wo5553435/IndexView/blob/master/gif/device-2017-12-11-143113.mp4)
 
 # How to use
 
