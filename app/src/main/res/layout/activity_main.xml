@@ -17,11 +17,11 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:onClick="change"
-        app:text="123"
-        app:textsize="30"
-        app:orientation="vetical"
-        app:textColor="@color/colorAccent"
-        app:reverse="false"
+        app:in_text="123"
+        app:in_textsize="30"
+        app:in_orientation="vetical"
+        app:in_textColor="@color/colorAccent"
+        app:in_reverse="false"
         android:background="#fa4"
         />
 </RelativeLayout>

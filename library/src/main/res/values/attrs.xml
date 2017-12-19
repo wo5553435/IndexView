@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="IndexNumView">
-        <attr name="orientation"
+        <attr name="in_orientation"
             >
             <enum name="vetical" value="0"/>
             <enum name="horizontal" value="1"/>
         </attr>
-        <attr name="reverse" format="boolean"/>
-        <attr name="text" format="string"/>
-        <attr name="textColor" format="reference"/>
-        <attr name="backgound" format="reference"/>
-        <attr name="textsize" format="integer"/>
-        <attr name="duration" format="integer"/>
-        <attr name="offset" format="integer"/>
+        <attr name="in_reverse" format="boolean"/>
+        <attr name="in_text" format="string"/>
+        <attr name="in_textColor" format="reference"/>
+        <attr name="in_textsize" format="integer"/>
+        <attr name="in_duration" format="integer"/>
+        <attr name="in_offset" format="integer"/>
     </declare-styleable>
 </resources>
