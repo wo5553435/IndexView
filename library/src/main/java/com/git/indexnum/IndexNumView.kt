@@ -39,7 +39,7 @@ class IndexNumView:View{
     private var textoffset = 20
     private var reverse = false;//是否让动画相反
     val scale = context.resources.displayMetrics.density
-
+    val test1="develop"
     constructor(context: Context) : super(context) {
         mContext = context;
         init(null)
